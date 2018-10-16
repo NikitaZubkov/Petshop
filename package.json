@@ -1,0 +1,59 @@
+{
+  "name": "petshop",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "Nikita <sapsan2411@yandex.ru>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "vue": "^2.5.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "luxon": "^1.4.3",
+    "vue-datetime": "^1.0.0-beta.8",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1",
+    "weekstart": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-util": "^3.0.8",
+    "postcss-assets": "^5.0.0",
+    "postcss-conditionals": "^2.1.0",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-easings": "^2.0.0",
+    "postcss-extend": "^1.0.5",
+    "postcss-flexibility": "^2.0.0",
+    "postcss-hexrgba": "^1.0.1",
+    "postcss-import": "^12.0.0",
+    "postcss-math": "0.0.10",
+    "postcss-mixins": "^6.2.0",
+    "postcss-nested": "^4.1.0",
+    "postcss-nested-ancestors": "^2.0.0",
+    "postcss-object-fit-images": "^1.1.2",
+    "postcss-simple-vars": "^5.0.1",
+    "postcss-units": "^1.2.1"
+  }
+}
